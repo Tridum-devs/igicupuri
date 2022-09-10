@@ -1,15 +1,15 @@
-import { gql } from 'apollo-server-express';
+import { gql } from 'apollo-server-express'
 
 const schema = gql`
-	type Query {
-		welcome: String!
-	}
+  type Query {
+    welcome: String!
+  }
 
   type User {
     id: ID!
     email: String!
     password: String!
   }
-`;
+`
 
-export default [schema];
+export default [schema]
